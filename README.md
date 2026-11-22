@@ -12,6 +12,8 @@ A static web app with no backend and no database. The QR and barcode libraries a
 - **Customize** — Foreground / background colors (transparent background supported), size, QR error-correction level, bar width / height, and human-readable text toggle for barcodes
 - **Caption** — Optional text under the QR code (off by default), editable, with safe automatic labels (e.g. the Wi-Fi network name — never the password); the caption is baked into PNG / SVG downloads
 - **Export** — Download as PNG or SVG
+- **Bulk generation** — Paste or load a CSV (headers auto-detected, quoted fields supported), or use the serial-number generator (prefix, start number, count, zero-padding); up to 200 codes at once, each row validated with the same rules as single generation, then downloaded together as a ZIP (PNG or SVG)
+- **A4 label printing** — Lay the generated codes out on an A4 label sheet (12 / 24 / 40 / 65 labels), with a choice of printed caption and a start-position offset; print from the browser via print CSS, or download the sheets as 300 dpi PNGs in a ZIP
 
 ## Libraries (bundled, no CDN)
 
